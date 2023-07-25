@@ -1,0 +1,41 @@
+body {
+  background-color: blue;
+}
+
+section {
+  text-align: center;
+}
+li {
+  background-color: white;
+  width: 600px;
+  height: 50px;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 10px;
+  text-align: right;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li:hover {
+  background-color: rgb(228, 227, 227);
+  box-shadow: 5px 5px;
+  color: black;
+}
+.black {
+  list-style: none;
+}
+.black li {
+  background-color: black;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 10px;
+  position: relative;
+  right: 42px;
+  bottom: 800px;
+
+  margin: 45px;
+}
